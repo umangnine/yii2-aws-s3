@@ -10,7 +10,7 @@ use Psr\Http\Message\StreamInterface;
 /**
  * Class UploadCommandHandler
  *
- * @package frostealth\yii2\aws\s3\handlers
+ * @package umn\yii2\aws\s3\handlers
  */
 final class UploadCommandHandler extends Handler
 {

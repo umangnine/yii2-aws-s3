@@ -5,7 +5,7 @@ namespace umn\yii2\aws\s3\interfaces\commands;
 /**
  * Interface ExecutableCommand
  *
- * @package frostealth\yii2\aws\s3\interfaces\commands
+ * @package umn\yii2\aws\s3\interfaces\commands
  */
 interface ExecutableCommand extends Command
 {

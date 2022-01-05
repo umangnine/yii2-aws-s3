@@ -3,7 +3,7 @@
     "type": "yii2-extension",
     "description": "An Amazon S3 component for Yii2 - with fixes for Guzzle dependency issues!",
     "keywords": ["yii2", "aws", "s3", "aws-s3", "yii2-aws", "yii2-s3"],
-    "homepage": "https://github.com/frostealth/yii2-aws-s3",
+    "homepage": "https://github.com/umn/yii2-aws-s3",
     "license": "MIT",
     "authors": [
         {
@@ -13,8 +13,8 @@
         },
         {
             "name": "Ivan Kudinov",
-            "email": "i.kudinov@frostealth.ru",
-            "homepage": "http://frostealth.ru"
+            "email": "i.kudinov@umn.ru",
+            "homepage": "http://umn.ru"
         },
         {
             "name": "Constantine Chuprik",

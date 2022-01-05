@@ -7,7 +7,7 @@ use umn\yii2\aws\s3\interfaces\commands\Command;
 /**
  * Interface CommandBuilder
  *
- * @package frostealth\yii2\aws\s3\interfaces
+ * @package umn\yii2\aws\s3\interfaces
  */
 interface CommandBuilder
 {

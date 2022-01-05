@@ -10,7 +10,7 @@ use umn\yii2\aws\s3\interfaces\commands\PlainCommand;
 /**
  * Class PlainCommandHandler
  *
- * @package frostealth\yii2\aws\s3\handlers
+ * @package umn\yii2\aws\s3\handlers
  */
 final class PlainCommandHandler extends Handler
 {

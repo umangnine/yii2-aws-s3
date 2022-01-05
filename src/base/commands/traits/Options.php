@@ -5,7 +5,7 @@ namespace umn\yii2\aws\s3\base\commands\traits;
 /**
  * Trait Options
  *
- * @package frostealth\yii2\aws\s3\base\commands\traits
+ * @package umn\yii2\aws\s3\base\commands\traits
  */
 trait Options
 {

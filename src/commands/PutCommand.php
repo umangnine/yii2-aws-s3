@@ -17,7 +17,7 @@ use GuzzleHttp\Promise\PromiseInterface;
  *
  * @method ResultInterface|PromiseInterface execute()
  *
- * @package frostealth\yii2\aws\s3\commands
+ * @package umn\yii2\aws\s3\commands
  */
 class PutCommand extends ExecutableCommand implements PlainCommand, HasBucket, HasAcl, Asynchronous
 {

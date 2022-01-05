@@ -11,7 +11,7 @@ use umn\yii2\aws\s3\interfaces\commands\HasBucket;
  *
  * @method bool execute()
  *
- * @package frostealth\yii2\aws\s3\commands
+ * @package umn\yii2\aws\s3\commands
  */
 class ExistCommand extends ExecutableCommand implements HasBucket
 {

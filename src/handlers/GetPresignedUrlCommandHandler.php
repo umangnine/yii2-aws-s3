@@ -8,7 +8,7 @@ use umn\yii2\aws\s3\commands\GetPresignedUrlCommand;
 /**
  * Class GetPresignedUrlCommandHandler
  *
- * @package frostealth\yii2\aws\s3\handlers
+ * @package umn\yii2\aws\s3\handlers
  */
 final class GetPresignedUrlCommandHandler extends Handler
 {

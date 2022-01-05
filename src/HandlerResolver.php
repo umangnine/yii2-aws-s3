@@ -11,7 +11,7 @@ use yii\base\Exception;
 /**
  * Class HandlerResolver
  *
- * @package frostealth\yii2\aws\s3
+ * @package umn\yii2\aws\s3
  */
 class HandlerResolver implements interfaces\HandlerResolver, Configurable
 {

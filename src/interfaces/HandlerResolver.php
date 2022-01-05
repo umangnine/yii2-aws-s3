@@ -8,7 +8,7 @@ use umn\yii2\aws\s3\interfaces\handlers\Handler;
 /**
  * Interface HandlerResolver
  *
- * @package frostealth\yii2\aws\s3\interfaces
+ * @package umn\yii2\aws\s3\interfaces
  */
 interface HandlerResolver
 {

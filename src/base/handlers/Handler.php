@@ -8,7 +8,7 @@ use umn\yii2\aws\s3\interfaces\handlers\Handler as HandlerInterface;
 /**
  * Class Handler
  *
- * @package frostealth\yii2\aws\s3\base\handlers
+ * @package umn\yii2\aws\s3\base\handlers
  */
 abstract class Handler implements HandlerInterface
 {

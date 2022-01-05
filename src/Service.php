@@ -25,7 +25,7 @@ use yii\helpers\ArrayHelper;
  * @method string           getUrl(string $filename)
  * @method string           getPresignedUrl(string $filename, $expires)
  *
- * @package frostealth\yii2\aws\s3
+ * @package umn\yii2\aws\s3
  */
 class Service extends Component implements ServiceInterface
 {
@@ -241,10 +241,10 @@ class Service extends Component implements ServiceInterface
     {
         return [
             'client' => ['class' => 'Aws\S3\S3Client'],
-            'resolver' => ['class' => 'frostealth\yii2\aws\s3\HandlerResolver'],
-            'bus' => ['class' => 'frostealth\yii2\aws\s3\Bus'],
-            'builder' => ['class' => 'frostealth\yii2\aws\s3\CommandBuilder'],
-            'factory' => ['class' => 'frostealth\yii2\aws\s3\CommandFactory'],
+            'resolver' => ['class' => 'umn\yii2\aws\s3\HandlerResolver'],
+            'bus' => ['class' => 'umn\yii2\aws\s3\Bus'],
+            'builder' => ['class' => 'umn\yii2\aws\s3\CommandBuilder'],
+            'factory' => ['class' => 'umn\yii2\aws\s3\CommandFactory'],
         ];
     }
 

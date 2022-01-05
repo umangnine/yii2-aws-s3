@@ -5,7 +5,7 @@ namespace umn\yii2\aws\s3\interfaces\commands;
 /**
  * Interface Command
  *
- * @package frostealth\yii2\aws\s3\interfaces\commands
+ * @package umn\yii2\aws\s3\interfaces\commands
  */
 interface Command
 {

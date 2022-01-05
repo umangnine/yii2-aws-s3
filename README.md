@@ -2,21 +2,21 @@
 
 An Amazon S3 component for Yii2.
 
-[![License](https://poser.pugx.org/frostealth/yii2-aws-s3/license)](https://github.com/frostealth/yii2-aws-s3/blob/2.x/LICENSE)
-[![Latest Stable Version](https://poser.pugx.org/frostealth/yii2-aws-s3/v/stable)](https://packagist.org/packages/frostealth/yii2-aws-s3)
-[![Total Downloads](https://poser.pugx.org/frostealth/yii2-aws-s3/downloads)](https://packagist.org/packages/frostealth/yii2-aws-s3)
-[![Latest Unstable Version](https://poser.pugx.org/frostealth/yii2-aws-s3/v/unstable)](https://packagist.org/packages/frostealth/yii2-aws-s3)
+[![License](https://poser.pugx.org/umn/yii2-aws-s3/license)](https://github.com/umn/yii2-aws-s3/blob/2.x/LICENSE)
+[![Latest Stable Version](https://poser.pugx.org/umn/yii2-aws-s3/v/stable)](https://packagist.org/packages/umn/yii2-aws-s3)
+[![Total Downloads](https://poser.pugx.org/umn/yii2-aws-s3/downloads)](https://packagist.org/packages/umn/yii2-aws-s3)
+[![Latest Unstable Version](https://poser.pugx.org/umn/yii2-aws-s3/v/unstable)](https://packagist.org/packages/umn/yii2-aws-s3)
 
 > Yii2 AWS S3 uses [SemVer](http://semver.org/).
 
-> Version 2.x requires PHP 7. For PHP less 7.0 use [1.x](https://github.com/frostealth/yii2-aws-s3/tree/1.x).
+> Version 2.x requires PHP 7. For PHP less 7.0 use [1.x](https://github.com/umn/yii2-aws-s3/tree/1.x).
 
 ## Installation
 
 1. Run the [Composer](http://getcomposer.org/download/) command to install the latest version:
 
     ```bash
-    composer require frostealth/yii2-aws-s3 ~2.0
+    composer require umn/yii2-aws-s3 ~2.0
     ```
 
 2. Add the component to `config/main.php`

@@ -16,7 +16,7 @@ use umn\yii2\aws\s3\interfaces;
 /**
  * Class CommandFactory
  *
- * @package frostealth\yii2\aws\s3
+ * @package umn\yii2\aws\s3
  */
 class CommandFactory
 {

@@ -10,7 +10,7 @@ use umn\yii2\aws\s3\interfaces\commands\HasBucket;
  *
  * @method string execute()
  *
- * @package frostealth\yii2\aws\s3\commands
+ * @package umn\yii2\aws\s3\commands
  */
 class GetUrlCommand extends ExecutableCommand implements HasBucket
 {

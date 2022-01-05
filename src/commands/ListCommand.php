@@ -16,7 +16,7 @@ use GuzzleHttp\Promise\PromiseInterface;
  *
  * @method ResultInterface|PromiseInterface execute()
  *
- * @package frostealth\yii2\aws\s3\commands
+ * @package umn\yii2\aws\s3\commands
  */
 class ListCommand extends ExecutableCommand implements PlainCommand, HasBucket, Asynchronous
 {

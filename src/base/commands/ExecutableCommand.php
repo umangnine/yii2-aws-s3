@@ -8,7 +8,7 @@ use umn\yii2\aws\s3\interfaces\commands\ExecutableCommand as ExecutableCommandIn
 /**
  * Class ExecutableCommand
  *
- * @package frostealth\yii2\aws\s3\base\commands
+ * @package umn\yii2\aws\s3\base\commands
  */
 abstract class ExecutableCommand implements ExecutableCommandInterface
 {

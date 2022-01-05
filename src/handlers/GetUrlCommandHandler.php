@@ -1,9 +1,9 @@
 <?php
 
-namespace frostealth\yii2\aws\s3\handlers;
+namespace umn\yii2\aws\s3\handlers;
 
-use frostealth\yii2\aws\s3\base\handlers\Handler;
-use frostealth\yii2\aws\s3\commands\GetUrlCommand;
+use umn\yii2\aws\s3\base\handlers\Handler;
+use umn\yii2\aws\s3\commands\GetUrlCommand;
 
 /**
  * Class GetUrlCommandHandler
@@ -13,7 +13,7 @@ use frostealth\yii2\aws\s3\commands\GetUrlCommand;
 final class GetUrlCommandHandler extends Handler
 {
     /**
-     * @param \frostealth\yii2\aws\s3\commands\GetUrlCommand $command
+     * @param \umn\yii2\aws\s3\commands\GetUrlCommand $command
      *
      * @return string
      */

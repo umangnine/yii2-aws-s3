@@ -1,9 +1,9 @@
 <?php
 
-namespace frostealth\yii2\aws\s3\base\commands;
+namespace umn\yii2\aws\s3\base\commands;
 
-use frostealth\yii2\aws\s3\interfaces\Bus;
-use frostealth\yii2\aws\s3\interfaces\commands\ExecutableCommand as ExecutableCommandInterface;
+use umn\yii2\aws\s3\interfaces\Bus;
+use umn\yii2\aws\s3\interfaces\commands\ExecutableCommand as ExecutableCommandInterface;
 
 /**
  * Class ExecutableCommand
@@ -12,13 +12,13 @@ use frostealth\yii2\aws\s3\interfaces\commands\ExecutableCommand as ExecutableCo
  */
 abstract class ExecutableCommand implements ExecutableCommandInterface
 {
-    /** @var \frostealth\yii2\aws\s3\interfaces\Bus */
+    /** @var \umn\yii2\aws\s3\interfaces\Bus */
     private $bus;
 
     /**
      * ExecutableCommand constructor.
      *
-     * @param \frostealth\yii2\aws\s3\interfaces\Bus $bus
+     * @param \umn\yii2\aws\s3\interfaces\Bus $bus
      */
     public function __construct(Bus $bus)
     {

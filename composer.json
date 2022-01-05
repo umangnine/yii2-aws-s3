@@ -1,11 +1,16 @@
 {
-    "name": "frostealth/yii2-aws-s3",
+    "name": "umn/yii2-aws-s3",
     "type": "yii2-extension",
-    "description": "An Amazon S3 component for Yii2",
+    "description": "An Amazon S3 component for Yii2 - with fixes for Guzzle dependency issues!",
     "keywords": ["yii2", "aws", "s3", "aws-s3", "yii2-aws", "yii2-s3"],
     "homepage": "https://github.com/frostealth/yii2-aws-s3",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Umang Kathiyara",
+            "email": "umang@praxinfo.com",
+            "homepage": "https://praxinfo.com"
+        },
         {
             "name": "Ivan Kudinov",
             "email": "i.kudinov@frostealth.ru",
@@ -17,7 +22,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/frostealth/yii2-aws-s3/issues?state=open"
+        "issues": "https://github.com/umangnine/yii2-aws-s3/issues?state=open"
     },
     "require": {
         "php": ">=7.0.0",
@@ -30,7 +35,7 @@
     },
     "autoload": {
         "psr-4": {
-            "frostealth\\yii2\\aws\\s3\\": "src/"
+            "umn\\yii2\\aws\\s3\\": "src/"
         }
     }
 }

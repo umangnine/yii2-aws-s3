@@ -1,9 +1,9 @@
 <?php
 
-namespace frostealth\yii2\aws\s3\handlers;
+namespace umn\yii2\aws\s3\handlers;
 
-use frostealth\yii2\aws\s3\base\handlers\Handler;
-use frostealth\yii2\aws\s3\commands\ExistCommand;
+use umn\yii2\aws\s3\base\handlers\Handler;
+use umn\yii2\aws\s3\commands\ExistCommand;
 
 /**
  * Class ExistCommandHandler
@@ -13,7 +13,7 @@ use frostealth\yii2\aws\s3\commands\ExistCommand;
 final class ExistCommandHandler extends Handler
 {
     /**
-     * @param \frostealth\yii2\aws\s3\commands\ExistCommand $command
+     * @param \umn\yii2\aws\s3\commands\ExistCommand $command
      *
      * @return bool
      */

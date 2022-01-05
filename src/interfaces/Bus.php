@@ -1,8 +1,8 @@
 <?php
 
-namespace frostealth\yii2\aws\s3\interfaces;
+namespace umn\yii2\aws\s3\interfaces;
 
-use frostealth\yii2\aws\s3\interfaces\commands\Command;
+use umn\yii2\aws\s3\interfaces\commands\Command;
 
 /**
  * Interface Bus
@@ -12,7 +12,7 @@ use frostealth\yii2\aws\s3\interfaces\commands\Command;
 interface Bus
 {
     /**
-     * @param \frostealth\yii2\aws\s3\interfaces\commands\Command $command
+     * @param \umn\yii2\aws\s3\interfaces\commands\Command $command
      *
      * @return mixed
      */

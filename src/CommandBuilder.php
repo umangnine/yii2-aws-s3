@@ -1,8 +1,8 @@
 <?php
 
-namespace frostealth\yii2\aws\s3;
+namespace umn\yii2\aws\s3;
 
-use frostealth\yii2\aws\s3\interfaces;
+use umn\yii2\aws\s3\interfaces;
 
 /**
  * Class CommandBuilder
@@ -23,7 +23,7 @@ class CommandBuilder implements interfaces\CommandBuilder
     /**
      * CommandBuilder constructor.
      *
-     * @param \frostealth\yii2\aws\s3\interfaces\Bus $bus
+     * @param \umn\yii2\aws\s3\interfaces\Bus $bus
      * @param string                                 $bucket
      * @param string                                 $acl
      */
@@ -37,7 +37,7 @@ class CommandBuilder implements interfaces\CommandBuilder
     /**
      * @param string $className
      *
-     * @return \frostealth\yii2\aws\s3\interfaces\commands\Command
+     * @return \umn\yii2\aws\s3\interfaces\commands\Command
      * @throws \yii\base\InvalidConfigException
      */
     public function build(string $className): interfaces\commands\Command
@@ -53,7 +53,7 @@ class CommandBuilder implements interfaces\CommandBuilder
     }
 
     /**
-     * @param \frostealth\yii2\aws\s3\interfaces\commands\Command $command
+     * @param \umn\yii2\aws\s3\interfaces\commands\Command $command
      */
     protected function prepareCommand(interfaces\commands\Command $command)
     {

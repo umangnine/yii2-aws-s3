@@ -25,7 +25,7 @@ An Amazon S3 component for Yii2.
     'components' => [
         // ...
         's3' => [
-            'class' => 'frostealth\yii2\aws\s3\Service',
+            'class' => 'umn\yii2\aws\s3\Service',
             'credentials' => [ // Aws\Credentials\CredentialsInterface|array|callable
                 'key' => 'my-key',
                 'secret' => 'my-secret',
@@ -43,7 +43,7 @@ An Amazon S3 component for Yii2.
 ### Usage of the command factory and additional params
 
 ```php
-/** @var \frostealth\yii2\aws\s3\Service $s3 */
+/** @var \umn\yii2\aws\s3\Service $s3 */
 $s3 = Yii::$app->get('s3');
 
 /** @var \Aws\ResultInterface $result */
@@ -72,7 +72,7 @@ $signedUrl = $s3->commands()->getPresignedUrl('filename.ext', '+2 days')->execut
 ### Short syntax
 
 ```php
-/** @var \frostealth\yii2\aws\s3\Service $s3 */
+/** @var \umn\yii2\aws\s3\Service $s3 */
 $s3 = Yii::$app->get('s3');
 
 /** @var \Aws\ResultInterface $result */
@@ -101,7 +101,7 @@ $signedUrl = $s3->getPresignedUrl('filename.ext', '+2 days');
 ### Asynchronous execution
 
 ```php
-/** @var \frostealth\yii2\aws\s3\Service $s3 */
+/** @var \umn\yii2\aws\s3\Service $s3 */
 $s3 = Yii::$app->get('s3');
 
 /** @var \GuzzleHttp\Promise\PromiseInterface $promise */
@@ -119,10 +119,10 @@ $promise = $s3->commands()->list('path/')->async()->execute();
 ## Advanced usage
 
 ```php
-/** @var \frostealth\yii2\aws\s3\interfaces\Service $s3 */
+/** @var \umn\yii2\aws\s3\interfaces\Service $s3 */
 $s3 = Yii::$app->get('s3');
 
-/** @var \frostealth\yii2\aws\s3\commands\GetCommand $command */
+/** @var \umn\yii2\aws\s3\commands\GetCommand $command */
 $command = $s3->create(GetCommand::class);
 $command->inBucket('my-another-bucket')->byFilename('filename.ext')->saveAs('/path/to/local/file.ext');
 
@@ -158,9 +158,9 @@ Consider the following command:
 
 namespace app\components\s3\commands;
 
-use frostealth\yii2\aws\s3\base\commands\traits\Options;
-use frostealth\yii2\aws\s3\interfaces\commands\Command;
-use frostealth\yii2\aws\s3\interfaces\commands\HasBucket;
+use umn\yii2\aws\s3\base\commands\traits\Options;
+use umn\yii2\aws\s3\interfaces\commands\Command;
+use umn\yii2\aws\s3\interfaces\commands\HasBucket;
 
 class MyCommand implements Command, HasBucket
 {
@@ -204,7 +204,7 @@ The handler for this command looks like this:
 namespace app\components\s3\handlers;
 
 use app\components\s3\commands\MyCommand;
-use frostealth\yii2\aws\s3\base\handlers\Handler;
+use umn\yii2\aws\s3\base\handlers\Handler;
 
 class MyCommandHandler extends Handler
 {
@@ -222,7 +222,7 @@ class MyCommandHandler extends Handler
 And usage this command:
 
 ```php
-/** @var \frostealth\yii2\aws\s3\interfaces\Service */
+/** @var \umn\yii2\aws\s3\interfaces\Service */
 $s3 = Yii::$app->get('s3');
 
 /** @var \app\components\s3\commands\MyCommand $command */
@@ -240,8 +240,8 @@ Custom plain command looks like this:
 
 namespace app\components\s3\commands;
 
-use frostealth\yii2\aws\s3\interfaces\commands\HasBucket;
-use frostealth\yii2\aws\s3\interfaces\commands\PlainCommand;
+use umn\yii2\aws\s3\interfaces\commands\HasBucket;
+use umn\yii2\aws\s3\interfaces\commands\PlainCommand;
 
 class MyPlainCommand implements PlainCommand, HasBucket
 {

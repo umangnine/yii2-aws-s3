@@ -1,9 +1,9 @@
 <?php
 
-namespace frostealth\yii2\aws\s3\commands;
+namespace umn\yii2\aws\s3\commands;
 
-use frostealth\yii2\aws\s3\base\commands\ExecutableCommand;
-use frostealth\yii2\aws\s3\interfaces\commands\HasBucket;
+use umn\yii2\aws\s3\base\commands\ExecutableCommand;
+use umn\yii2\aws\s3\interfaces\commands\HasBucket;
 
 /**
  * Class GetPresignedUrlCommand

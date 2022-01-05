@@ -1,9 +1,9 @@
 <?php
 
-namespace frostealth\yii2\aws\s3\base\handlers;
+namespace umn\yii2\aws\s3\base\handlers;
 
 use Aws\S3\S3Client;
-use frostealth\yii2\aws\s3\interfaces\handlers\Handler as HandlerInterface;
+use umn\yii2\aws\s3\interfaces\handlers\Handler as HandlerInterface;
 
 /**
  * Class Handler

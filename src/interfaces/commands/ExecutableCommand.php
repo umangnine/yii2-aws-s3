@@ -1,6 +1,6 @@
 <?php
 
-namespace frostealth\yii2\aws\s3\interfaces\commands;
+namespace umn\yii2\aws\s3\interfaces\commands;
 
 /**
  * Interface ExecutableCommand

@@ -1,11 +1,11 @@
 <?php
 
-namespace frostealth\yii2\aws\s3;
+namespace umn\yii2\aws\s3;
 
 use Aws\ResultInterface;
-use frostealth\yii2\aws\s3\interfaces\commands\Command;
-use frostealth\yii2\aws\s3\interfaces\HandlerResolver;
-use frostealth\yii2\aws\s3\interfaces\Service as ServiceInterface;
+use umn\yii2\aws\s3\interfaces\commands\Command;
+use umn\yii2\aws\s3\interfaces\HandlerResolver;
+use umn\yii2\aws\s3\interfaces\Service as ServiceInterface;
 use yii\base\Component;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
@@ -70,7 +70,7 @@ class Service extends Component implements ServiceInterface
     /**
      * Executes a command.
      *
-     * @param \frostealth\yii2\aws\s3\interfaces\commands\Command $command
+     * @param \umn\yii2\aws\s3\interfaces\commands\Command $command
      *
      * @return mixed
      */
@@ -84,7 +84,7 @@ class Service extends Component implements ServiceInterface
      *
      * @param string $commandClass
      *
-     * @return \frostealth\yii2\aws\s3\interfaces\commands\Command
+     * @return \umn\yii2\aws\s3\interfaces\commands\Command
      */
     public function create(string $commandClass): Command
     {
@@ -94,7 +94,7 @@ class Service extends Component implements ServiceInterface
     /**
      * Returns command factory.
      *
-     * @return \frostealth\yii2\aws\s3\CommandFactory
+     * @return \umn\yii2\aws\s3\CommandFactory
      */
     public function commands(): CommandFactory
     {
@@ -104,7 +104,7 @@ class Service extends Component implements ServiceInterface
     /**
      * Returns handler resolver.
      *
-     * @return \frostealth\yii2\aws\s3\interfaces\HandlerResolver
+     * @return \umn\yii2\aws\s3\interfaces\HandlerResolver
      */
     public function getResolver(): HandlerResolver
     {

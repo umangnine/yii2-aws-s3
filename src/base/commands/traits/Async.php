@@ -1,6 +1,6 @@
 <?php
 
-namespace frostealth\yii2\aws\s3\base\commands\traits;
+namespace umn\yii2\aws\s3\base\commands\traits;
 
 /**
  * Trait Async

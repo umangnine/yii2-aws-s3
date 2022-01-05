@@ -1,13 +1,13 @@
 <?php
 
-namespace frostealth\yii2\aws\s3\commands;
+namespace umn\yii2\aws\s3\commands;
 
 use Aws\ResultInterface;
-use frostealth\yii2\aws\s3\base\commands\ExecutableCommand;
-use frostealth\yii2\aws\s3\base\commands\traits\Async;
-use frostealth\yii2\aws\s3\interfaces\commands\Asynchronous;
-use frostealth\yii2\aws\s3\interfaces\commands\HasAcl;
-use frostealth\yii2\aws\s3\interfaces\commands\HasBucket;
+use umn\yii2\aws\s3\base\commands\ExecutableCommand;
+use umn\yii2\aws\s3\base\commands\traits\Async;
+use umn\yii2\aws\s3\interfaces\commands\Asynchronous;
+use umn\yii2\aws\s3\interfaces\commands\HasAcl;
+use umn\yii2\aws\s3\interfaces\commands\HasBucket;
 use GuzzleHttp\Promise\PromiseInterface;
 
 /**

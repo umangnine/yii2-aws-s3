@@ -1,9 +1,9 @@
 <?php
 
-namespace frostealth\yii2\aws\s3\interfaces;
+namespace umn\yii2\aws\s3\interfaces;
 
-use frostealth\yii2\aws\s3\interfaces\commands\Command;
-use frostealth\yii2\aws\s3\interfaces\handlers\Handler;
+use umn\yii2\aws\s3\interfaces\commands\Command;
+use umn\yii2\aws\s3\interfaces\handlers\Handler;
 
 /**
  * Interface HandlerResolver
@@ -13,9 +13,9 @@ use frostealth\yii2\aws\s3\interfaces\handlers\Handler;
 interface HandlerResolver
 {
     /**
-     * @param \frostealth\yii2\aws\s3\interfaces\commands\Command $command
+     * @param \umn\yii2\aws\s3\interfaces\commands\Command $command
      *
-     * @return \frostealth\yii2\aws\s3\interfaces\handlers\Handler
+     * @return \umn\yii2\aws\s3\interfaces\handlers\Handler
      */
     public function resolve(Command $command): Handler;
 

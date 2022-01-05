@@ -1,8 +1,8 @@
 <?php
 
-namespace frostealth\yii2\aws\s3;
+namespace umn\yii2\aws\s3;
 
-use frostealth\yii2\aws\s3\interfaces;
+use umn\yii2\aws\s3\interfaces;
 
 /**
  * Class Bus
@@ -17,7 +17,7 @@ class Bus implements interfaces\Bus
     /**
      * Bus constructor.
      *
-     * @param \frostealth\yii2\aws\s3\interfaces\HandlerResolver $inflector
+     * @param \umn\yii2\aws\s3\interfaces\HandlerResolver $inflector
      */
     public function __construct(interfaces\HandlerResolver $inflector)
     {
@@ -25,14 +25,14 @@ class Bus implements interfaces\Bus
     }
 
     /**
-     * @param \frostealth\yii2\aws\s3\interfaces\commands\Command $command
+     * @param \umn\yii2\aws\s3\interfaces\commands\Command $command
      *
      * @return mixed
      */
     public function execute(interfaces\commands\Command $command)
     {
         $handler = $this->resolver->resolve($command);
-        
+
         return call_user_func([$handler, 'handle'], $command);
     }
 }
